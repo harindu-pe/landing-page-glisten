@@ -71,7 +71,7 @@ const Integrations = ({ slice }: IntegrationsProps): JSX.Element => {
               {index === Math.floor(slice.items.length / 2) && (
                 <>
                   <StylizedLogoMark />
-                  <div className="signal-line rotate-180 bg-gradient-to-t"></div>
+                  <div className="signal-line rotate-180"></div>
                 </>
               )}
 
