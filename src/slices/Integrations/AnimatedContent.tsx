@@ -86,10 +86,6 @@ export default function AnimatedContent({
             },
             {
               opacity: 0.4,
-              stagger: {
-                from: "center",
-                each: 0.3,
-              },
               duration: 1,
             },
           ],
